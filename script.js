@@ -45,6 +45,7 @@ function verificar() {
             }
         }
         res.innerHTML = `Detectamos ${gen} ${tipo} com ${idade} anos de idade`
+        res.appendChild(img)
     }
 
 }
